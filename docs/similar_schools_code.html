@@ -1889,6 +1889,7 @@ sch_clusters &lt;- src_data %&gt;%
          pc2 = pca_coords$.fittedPC2)
 
 # Write file
+# Uncomment line below to overwrite file provided in this guide.
 # write_csv(sch_clusters, &quot;../data/sch_clusters.csv&quot;)</code></pre>
 <p>Lastly, examine your group using descriptive statistics and different visualizations (see below as an example). Ask yourself if the groupings make sense. If they do, try rerunning your K-Means algorithm to form new school groupsings. Don’t be surprised if it takes you a few tries to get school groups that are appropriate in size and makeup. It’s an iterative process.</p>
 <p><strong>Other advice.</strong> Conduct a follow-up analysis using prior year data. If you see that your school groups differ in meaningful ways from those in your original analysis, consider aggregating your data across years and use this information in your analysis. Using multiple years of data has the advantage of evening out periodic swings in the data.</p>

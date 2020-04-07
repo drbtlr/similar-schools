@@ -374,6 +374,7 @@ sch_clusters <- src_data %>%
          pc2 = pca_coords$.fittedPC2)
 
 # Write file
+# Uncomment line below to overwrite file provided in this guide.
 # write_csv(sch_clusters, "../data/sch_clusters.csv")
 ```
 
