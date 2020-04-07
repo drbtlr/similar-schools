@@ -1,7 +1,9 @@
-# Packages
-library(tidyverse)
 
-# R Function for Task 1
+# calcualte the percentage of variables that are missing
+calc_pct_missing <- function(x) {
+  sum(is.na(x)) / length(x)
+}
+
 # Derive the mode in a stata friendly fashion
 statamode <- function(x) {
   z <- table(as.vector(x))
