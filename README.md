@@ -1,7 +1,6 @@
-# Put name of your analysis here
-This repository contains web guides, R code, and sample
-data to help education data analysts answer questions about ***Insert
-goal of analysis here***. This material can also be accessed on the
+# Identifying Similar Schools
+
+This repository contains web guides, R code, and sample data to help education data analysts identify schools that are similar to each other in terms of student enrollment, faculty and staff characteristics, programs, spending and funding, and other school indicators that are publicly available on state and district report cards. Using data from the [Kentucky school report card](https://openhouse.education.ky.gov/SRC), this guide shows how unsupervised machine learning methods can be applied to publicly available data to gain insights into schools and districts across a state. This project is inspired by a similar project by [Albuquerque Public Schools](https://www.aps.edu/sapr). This material can also be accessed on the
 OpenSDP website at [opensdp.github.io/analysis](https://opensdp.github.io/analysis).
 
 The code in this repository is based on code from the "Analyze" section of the
@@ -16,7 +15,7 @@ This repository is organized in the following folder structure:
 - `includes` contains style assets to format the guides
 - `man` contains the manuals and descriptive files of the data
 
-These materials were originally authored by **YOURE NAME HERE**.
+These materials were originally authored by Aaron Butler.
 
 [OpenSDP](https://opensdp.github.io) is an online, public repository of analytic
 code, tools, and training intended to foster collaboration among education
