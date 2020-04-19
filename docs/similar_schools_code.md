@@ -14,7 +14,7 @@ output:
     number_sections: false
 ---
 
-# Identifying Similar Schools
+# Guide to Creating Comparison School Groups
 
 *Applying unsupervised machine learning methods to publicly available data to gain insights into schools and districts across a state. Programmed in R.*
 
@@ -22,7 +22,7 @@ output:
 
 <div class="navbar navbar-default navbar-fixed-top" id="logo">
 <div class="container">
-<img src="../img/open_sdp_logo_red.png" style="display: block; margin: 0 auto; height: 115px;">
+<img src="https://opensdp.github.io/assets/images/OpenSDP-Banner_crimson.jpg" style="display: block; margin: 0 auto; height: 115px;">
 </div>
 </div>
 
@@ -399,7 +399,7 @@ ggplot(sch_clusters,
 
 <img src="../figure/E_unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
 
-### Example Application: Benchmarking School Performance
+### Application: Benchmarking School Performance
 
 **Purpose:** This analyses examines proficiency rates in reading among schools within a comparison groups. It is an example application of a dataset containing a list of comparison schools.
 
