@@ -470,3 +470,8 @@ Below are a few helpful resources on PCA, K-Means clustering, and missing data i
  - `factoextra`: To visualize PCA results easily
  - `FactoShiny`: Shiny app for PCA
 - Inspiration for this project comes from [Albuquerque Public Schools](https://www.aps.edu/sapr). These guys do great work!
+
+
+---
+
+##### *This guide was originally created by [Aaron Butler](https://www.aaronjbutler.com/) in partnership with the Strategic Data Project.*
